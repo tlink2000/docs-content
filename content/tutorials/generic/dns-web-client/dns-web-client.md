@@ -68,7 +68,7 @@ Before we start, lets take a look at some core functions of the program:
   
 - `EthernetClient()` - Creates a client which can connect to a specified internet IP address and port (defined in the `client.connect()` function).
 - `client.connected()` - Whether or not the client is connected. Note that a client is considered connected if the connection has been closed but there is still unread data.
-- DNS lookup happens when `client.connect(servername,port)` is called. `servername` is a URL string, like `"www.arduino.cc"`.
+- DNS lookup happens when `client.connect(servername,port)` is called. `servername` is a domain name string, like `"www.arduino.cc"`.
 
 Upload the sketch below to your board:
 
